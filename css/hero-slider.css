@@ -42,7 +42,7 @@ Hero Slider - by CodyHouse.co
   margin-right: 5%;
   width: 44px;
   height: 100%;
-  background: url("../assets/cd-icon-menu.svg") no-repeat center center;
+  /* background: url("../assets/cd-icon-menu.svg") no-repeat center center; */
 }
 
 .cd-header__nav ul {
@@ -180,7 +180,8 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__slide:first-of-type {
   background-color: #E65100;
-  background-image: url(../uploads/slider-01.jpg);
+  background: linear-gradient(to right,rgb(99, 26, 26), rgb(58, 7, 7) );
+  /* background-image: url(../uploads/slider-01.jpg); */
 }
 
 .cd-hero__slide:nth-of-type(2) {
@@ -532,7 +533,7 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__nav li {
-  display: inline-block;
+  /* display: inline-block; */
   width: 45px;
   float: left;
 }

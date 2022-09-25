@@ -87,7 +87,9 @@ h1 {
 }
 
 h2 {
-    font-size: 22px
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 h3 {
@@ -170,7 +172,19 @@ ul, li, ol{
 html, body{
 	height: 100%;
 }
-
+/* HERO SECTION */
+.hero_icon{
+    margin-top: 3em ;
+}
+.hero_icon img{
+    width: 60px;
+    padding: 0 10px 0 10px;
+}
+.hero_icon img:hover{
+    width:65px ;
+    transition: 5ms ease;
+    cursor: pointer;
+}
 /*------------------------------------------------------------------
     WP CORE
 -------------------------------------------------------------------*/
@@ -327,26 +341,26 @@ a img.aligncenter {
 }
 
 .right-btn a{
-	display: inline-block;
+	/* display: inline-block; */
 	padding: 5px 20px;
 	font-size: 18px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	background-color: #e65100;
+	background-color: rgb(99, 26, 26);
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
 }
 
 .right-btn a:hover{
-	background-color: #e65100;
+	background-color: rgb(99, 26, 26);
 	color: #ffffff;
-	border: 1px solid #e65100;
+	border: 1px solid rgb(99, 26, 26);
 }
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: #e65100;
+	background: rgb(99, 26, 26);
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -372,16 +386,16 @@ a img.aligncenter {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color: #e65100;
+	color:rgb(99, 26, 26);
 	border-radius: 0px;
-	border-bottom: 3px solid #e65100;
+	border-bottom: 3px solid rgb(99, 26, 26);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
-	color: #e65100;
+	color: rgb(99, 26, 26);
 	border-radius: 0px;
-	border-bottom: 3px solid #e65100;
+	border-bottom: 3px solid rgb(99, 26, 26);
 }
 
 .header_style_01 .navbar-brand {
@@ -405,7 +419,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: #e65100;
+    color: rgb(99, 26, 26);
 }
 
 .header_style_01 .navbar-right > li {
@@ -435,7 +449,7 @@ li.social-links a {
 }
 
 li.social-links a:hover {
-	color: #e65100;
+	color: rgb(99, 26, 26);
 }
 
 .header_style_01.fixed-menu{
@@ -503,7 +517,7 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 .top-banner{
-	background: url(uploads/bg-img.jpg) bottom center no-repeat #e65100;
+	background: url(uploads/bg-img.jpg) bottom center no-repeat rgb(99, 26, 26);
 	height: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -637,7 +651,7 @@ body.app_version .header_style_01.fixed-menu{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #e65100;
+    background: rgb(99, 26, 26);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -659,6 +673,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
+    background-color: rgb(99, 26, 26) !important;
 }
 
 .js-cd-slide::before{
@@ -695,7 +710,7 @@ body.app_version .header_style_01.fixed-menu{
 	height: 90px;
 	text-align: center;
 	line-height: 90px;
-	background: #E65100;
+	background: rgb(99, 26, 26);
 	box-shadow: inset 0 0 0 10px rgba(51,51,51,0.6), 0 1px 2px rgba(0,0,0,0.1);
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -859,7 +874,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .how-its-work{
 	position: relative;
-	background: #e65100;
+	background: rgb(99, 26, 26);
 }
 .how-its-work .hc{
 	width: 25%;
@@ -1006,7 +1021,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot.active:hover span{
-    border-color: #E65100;
+    border-color: rgb(99, 26, 26);
     opacity: 1;
 }
 @media only screen and (max-width: 479px){
@@ -1017,7 +1032,7 @@ body.app_version .header_style_01.fixed-menu{
 
 
 #faqs{
-	background-color: #E65100;
+	background-color: rgb(99, 26, 26);
 }
 
 .accordion:before{
@@ -1056,7 +1071,7 @@ body.app_version .header_style_01.fixed-menu{
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background: #E65100;
+    background: rgb(99, 26, 26);
     border: 1px solid #333333;
     position: absolute;
     top: 50%;
@@ -1119,7 +1134,7 @@ body.app_version .header_style_01.fixed-menu{
 .pricingTable .price-value{
     font-size: 60px;
     font-weight: 800;
-    color: #E65100;
+    color: rgb(99, 26, 26);
     letter-spacing: 3px;
     margin-bottom: 30px;
 }
@@ -1127,7 +1142,7 @@ body.app_version .header_style_01.fixed-menu{
     display: block;
     font-size: 17px;
     font-weight: normal;
-    color: #E65100;
+    color: rgb(99, 26, 26);
     letter-spacing: 2px;
     line-height: 10px;
     text-transform: uppercase;
@@ -1145,7 +1160,7 @@ body.app_version .header_style_01.fixed-menu{
     transition: all 0.3s ease 0s;
 }
 .pricingTable:hover .title{
-    background: #E65100;
+    background:rgb(99, 26, 26);
     color: #fff;
 }
 .pricingTable:hover {
@@ -1168,8 +1183,8 @@ body.app_version .header_style_01.fixed-menu{
     left: auto;
     right: -26px;
 }
-.pricingTable:hover .title:before{ border-right-color: #E65100; }
-.pricingTable:hover .title:after{ border-left-color: #E65100; }
+.pricingTable:hover .title:before{ border-right-color: rgb(99, 26, 26); }
+.pricingTable:hover .title:after{ border-left-color: rgb(99, 26, 26); }
 .pricingTable .pricing-content{
     padding: 0;
     margin: 0 0 25px 0;
@@ -1366,7 +1381,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .hoverbutton {
-    background-color: #e65100;
+    background-color: rgb(99, 26, 26);
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1482,7 +1497,7 @@ hr.invis1 {
 }
 
 .owl-screenshots .swiper-button-next:hover, .owl-screenshots .swiper-button-prev:hover{
-	color: #E65100;
+	color: rgb(99, 26, 26);
 }
 
 .swiper-pagination-bullet{
@@ -1490,7 +1505,7 @@ hr.invis1 {
 	background: #333333;
 }
 .swiper-pagination-bullet-active{
-	background: #E65100;
+	background: rgb(99, 26, 26);
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
@@ -1583,7 +1598,7 @@ hr.invis1 {
     position: absolute;
     top: -100%;
     right: 10px;
-    background: #E65100;
+    background: rgb(99, 26, 26);
     z-index: 1;
     transition: all 0.3s ease 0s;
 }
@@ -1615,7 +1630,7 @@ hr.invis1 {
     content: "";
     width: 25px;
     height: 1px;
-    background: #E65100;
+    background: rgb(99, 26, 26);
     position: absolute;
     bottom: -10px;
     right: 50%;
@@ -1626,7 +1641,7 @@ hr.invis1 {
     content: "";
     width: 25px;
     height: 1px;
-    background: #E65100;
+    background: rgb(99, 26, 26);
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -1640,7 +1655,7 @@ hr.invis1 {
 .our-team .post{
     display: inline-block;
     font-size: 15px;
-    color:  #E65100;
+    color:  rgb(99, 26, 26);
     text-transform: capitalize;
 }
 .our-team .post:before{
@@ -1753,7 +1768,7 @@ body.app_version .customwidget li i{
     border-radius: 6px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #e65100;
+    background-color: rgb(99, 26, 26);
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -1870,7 +1885,7 @@ body.app_version .customwidget li i{
 }
 
 .btn-buy:hover{
-	background: #E65100;
+	background: rgb(99, 26, 26);
 }
 
 
@@ -2031,14 +2046,14 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .tooltip-inner {
-    background: #e65100; 
+    background: rgb(99, 26, 26); 
     color: #fff;
 }
 .tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
     margin-top: -3px;
     content: "";
     border-width: 5px 5px 5px 0;
-    border-bottom-color: #e65100;
+    border-bottom-color: rgb(99, 26, 26);
 }
 
 .get-btn{
@@ -2082,11 +2097,10 @@ body.app_version .bootstrap-select .btn-light:hover{
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
 }
 
 .footer {
-    padding: 90px 0 80px !important;
+    padding: 40px !important;
     color: #999;
     background-color: #1f1f1f;
 }
@@ -2117,7 +2131,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .subscribe-form .subscribe-btn{
-	background: #E65100;
+	background: rgb(99, 26, 26);
 	border: none;
 	border-radius: 0px;
 	color: #ffffff;
@@ -2179,7 +2193,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #e65100;
+	color:rgb(99, 26, 26);
 }
 
 
@@ -2291,7 +2305,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .icon_wrap {
-    background-color: #E65100;
+    background-color: rgb(99, 26, 26);
     width: 100px;
     height: 100px;
     display: block;
@@ -2307,10 +2321,10 @@ body.app_version .bootstrap-select .btn-light:hover{
 .stat-wrap h3 {
     font-size: 24px;
     font-weight: 700;
-    color: #E65100;
+    color: rgb(99, 26, 26);
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2319,7 +2333,7 @@ body.app_version .bootstrap-select .btn-light:hover{
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stats-box{
@@ -2450,7 +2464,7 @@ body.app_version .dev-list .widget-title small{
      left: 0;
      margin: 0px;
      height: 2px;
-     background: #e65100;
+     background: rgb(99, 26, 26);
      visibility: hidden;
      transition: all 0.45s ease;
      -webkit-transition: all 0.45s ease;
@@ -2591,8 +2605,8 @@ body.app_version .dev-list .widget-title small{
      -moz-border-radius: 50%;
 }
  .highlight.active .highlight-title span {
-    background: crimson;
-     webkit-transform: scale(0.93);
+    background: rgb(99, 26, 26);
+     -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);

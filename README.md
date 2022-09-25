@@ -1,6 +1,6 @@
 ## Welcome! 👋
 
-To do this challenge, you need a basic understanding of HTML and CSS.
+To do this challenge, you need a basic understanding of HTML, CSS and Bootstrap.
 
 ## The challenge
 
